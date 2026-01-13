@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     // Ini background utama menggunakan warna yang kamu setting tadi
-        <main className="text-4xl font-bold text-purple-600 mb-4"> AGUS Weather
+        <main className="text-4xl font-bold text-purple-600 mb-4"> Omah Abah
       
       {/* Kartu di tengah */}
       <div className="relative w-full max-w-2xl p-8 rounded-xl border bg-card text-card-foreground shadow-xl overflow-hidden">
