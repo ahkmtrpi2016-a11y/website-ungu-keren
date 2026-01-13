@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     // Ini background utama menggunakan warna yang kamu setting tadi
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-background">
+        <main className="text-4xl font-bold text-purple-600 mb-4"> AGUS Weather
       
       {/* Kartu di tengah */}
       <div className="relative w-full max-w-2xl p-8 rounded-xl border bg-card text-card-foreground shadow-xl overflow-hidden">
@@ -10,7 +10,7 @@ export default function Home() {
         <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-purple-medium to-pink-medium" />
 
         <h1 className="text-4xl font-bold tracking-tight text-purple-dark mb-4">
-          Halo, Website Ungu!
+          Selamat Datang
         </h1>
         
         <p className="text-lg text-muted-foreground mb-8">
